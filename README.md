@@ -1,7 +1,5 @@
 # JavaScript Completo ES6+
 
----
-
 <p align="center">
   <img src="https://img.icons8.com/color/144/000000/javascript.png">
 </p>
