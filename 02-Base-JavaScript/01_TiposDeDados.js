@@ -58,6 +58,7 @@ var idade = 20
 var Nome = 'Lucas'
 var Sobrenome = 'Xavier'
 var nomeInteiro = Nome + ' ' + Sobrenome;
+console.log(nomeInteiro);
 
 // Coloque a seguinte frase em uma variável: It's time
 var frase = "It's time"
