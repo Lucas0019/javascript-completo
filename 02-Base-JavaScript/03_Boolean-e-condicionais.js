@@ -40,6 +40,7 @@ if (possuiDoutorado) {
 
 
 //Operadores Lógicos && (E)
+//Retornar o primeiro valor FALSO
 /**
  * Se ambos os valores forem true ele irá retornar o último valor verificado 
  * Se algum valor for false ele irá retornar o mesmo e não irá
