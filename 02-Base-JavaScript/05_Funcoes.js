@@ -1,3 +1,5 @@
+//Chamada de function declaration
+
 function areaQuadrado(base, altura) {
     return base * altura;
 }
