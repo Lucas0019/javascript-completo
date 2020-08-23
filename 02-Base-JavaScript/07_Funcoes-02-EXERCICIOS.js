@@ -10,6 +10,15 @@ function maiorIdade(idade) {
 console.log(maiorIdade(15)); //False
 console.log(maiorIdade(20)); //True
 
+//Origamid
+
+function isTrue(dado) {
+    return !!dado;
+}
+
+var eTrue = isTrue('Texto');
+console.log(eTrue); //True
+
 // Crie uma função matemática que retorne o perímetro de um quadrado
 // lembrando: perímetro é a soma dos quatro lados do quadrado
 function perimetro(lado) {
@@ -28,6 +37,13 @@ function nomeCompleto(nome, sobrenome) {
 
 console.log('Nome completo: ' + nomeCompleto());
 
+//Origamid
+function nomeInteiro(N, S) {
+    return `$ {N} ${S}`;
+}
+
+console.log('Lucas', 'Xavier');
+
 
 // Crie uma função que verifica se um número é par
 function ePar(num) {
@@ -44,6 +60,19 @@ function ePar(num) {
 console.log(ePar(4)); // Par
 console.log(ePar(3)); //impar
 console.log(ePar(7)); //impar
+
+//origamid
+function isEven(numero) {
+    var modulo = numero % 2;
+    if (modulo === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log('Correção ORIGAMID: ' + isEven(4))
+console.log('Correção ORIGAMID: ' + isEven(3))
 
 // Crie uma função que retorne o tipo de
 // dado do argumento passado nela (typeof)
