@@ -91,9 +91,9 @@ tipoDados(Symbol()) //symbol
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
 // quando o evento 'scroll' ocorrer.
-addEventListener('scroll', function() {
-    console.log('Lucas dos Santos Xavier');
-});
+// addEventListener('scroll', function() {
+//     console.log('Lucas dos Santos Xavier');
+// });
 // A função possui dois argumentos
 // Primeiro é a string 'click'
 // Segundo é uma função anônima
@@ -101,16 +101,18 @@ addEventListener('scroll', function() {
 
 
 // Corrija o erro abaixo
+
+var totalPaises = 193;
+
 function precisoVisitar(paisesVisitados) {
-    var totalPaises = 193;
     return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
 
 }
-console.log(precisoVisitar(20));
-
 
 function jaVisitei(paisesVisitados) {
-    var totalPaises = 193;
     return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
 }
+
+
 console.log(jaVisitei(20));
+console.log(precisoVisitar(30));
