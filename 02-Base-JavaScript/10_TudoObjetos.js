@@ -63,3 +63,25 @@ areaQuadrado.length; // 1
 
 // Praticamente todos os efeitos com JS são feitos utilizando 
 //propriedades e métodos de objetos do DOM.
+
+
+//EXERCÍCIO 13:46
+// nomeie 3 propriedades ou métodos de strings
+var propriedades = '3'
+    // toFixed()
+    // length
+    // slice 
+
+// nomeie 5 propriedades ou métodos de elementos do DOM
+var btn = document.querySelector('.btn')
+    // addEventListener
+    // appendChild
+    //id
+    //innerHTML 
+    // outerHeight
+
+
+// busque na web um objeto (método) capaz de interagir com o clipboard ( CTRL + C e CTRL + V), 
+// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
+//https://clipboardjs.com/
+// https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
