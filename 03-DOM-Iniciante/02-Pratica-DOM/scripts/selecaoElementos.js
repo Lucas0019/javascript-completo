@@ -7,7 +7,6 @@ console.log(animaisSection);
 
 
 // Classe e Tag
-
 // Seleciona pela classe, retorna uma HTMLCollection
 const contatoMostra = document.getElementsByClassName('grid-section');
 
@@ -65,4 +64,32 @@ console.log(fotosAnimais);
 // Retorna o segundo elemento
 console.log(gridSection[1]);
 
+
+//Parte 02
 // Diferente do getElementsByClassName, a lista aqui é estática
+
+const gridSectionHTML = document.getElementsByClassName('grid-section');
+const gridSectionNODE = document.querySelectorAll('.grid-section');
+
+console.log(gridSectionHTML); //Atualização Ao vivo
+console.log(gridSectionNODE); //Não atualiza
+
+
+//Array-Like
+// HTMLCollection e NodeList são array-like, parecem uma array mas não são. 
+// O método de Array forEach() por exemplo, existe apenas em NodeList.
+
+//É possível transformar array-like em uma Array real, utilizando o método Array.from(gridSection)
+
+gridSection.forEach(function(item, index) {
+    console.log(item, index);
+})
+
+
+//Transformando num Array
+const arrayGrid = Array.from(gridSectionHTML);
+
+
+arrayGrid.forEach(function(item) {
+    console.log(item);
+})
