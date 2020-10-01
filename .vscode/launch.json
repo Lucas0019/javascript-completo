@@ -1,0 +1,32 @@
+// {
+//     // Use o IntelliSense para aprender sobre possíveis atributos.
+//     // Passe o mouse para ver as descrições dos atributos existentes.
+//     // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "pwa-chrome",
+//             "request": "launch",
+//             "name": "Open index.html",
+//             "file": "/home/lucas/Documentos/Projetos Web/Origamid-JavaScript/03-DOM-Iniciante/02-Pratica-DOM/index.html"
+//         }
+//     ]
+// },
+
+
+{
+    "version": "0.1.0",
+    "configurations": [{
+            "type": "devtools-for-chrome",
+            "request": "launch",
+            "name": "Launch Chrome DevTools",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "type": "devtools-for-chrome",
+            "request": "attach",
+            "name": "Attach Chrome DevTools",
+            "url": "http://localhost:8000/"
+        }
+    ]
+}
