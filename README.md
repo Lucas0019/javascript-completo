@@ -4,9 +4,9 @@
   <img src="https://img.icons8.com/color/144/000000/javascript.png">
 </p>
 
- ---
+---
 
-Conteúdo desenvolvido no intuito, de desenvolver minha capacidade e etendimento sobre a linguagem JavaScript
+Conteúdo desenvolvido no intuito, de desenvolver minha capacidade e entendimento sobre a linguagem JavaScript
 
 ## Principais Tópicos Abordados
 
@@ -17,3 +17,11 @@ Conteúdo desenvolvido no intuito, de desenvolver minha capacidade e etendimento
 - **Classes:** Class, constructor, get, set, extends e mais.
 - **Mais JavaScript:** IIFE, factory function, clojures, debugging, destructuring, rest, iterables.
 - **Regular Expression:** Principais padrões e métodos.
+
+---
+
+## Projeto do Curso
+
+- Site Animais Fantasticos
+
+  - **Status:** Em desenvolvimento
