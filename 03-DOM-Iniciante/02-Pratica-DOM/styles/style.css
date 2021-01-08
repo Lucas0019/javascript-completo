@@ -1,6 +1,5 @@
 /* Tirando os efeitos nativos do navehador */
 
-@import url('href=https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 body,
 h1,
 h2,
@@ -50,11 +49,11 @@ body {
     margin-right: 10px;
     color: #222;
     text-decoration: none;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.875rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
 }
 
 .menu li a:hover {
@@ -64,7 +63,7 @@ body {
 }
 
 .menu li a::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     transform: scaleX(0);
@@ -93,7 +92,7 @@ body {
 }
 
 .titulo {
-    font-family: 'Playfair Display SC', georgia;
+    font-family: "Playfair Display SC", georgia;
     font-size: 6rem;
     line-height: 1;
     font-weight: 400;
@@ -102,16 +101,16 @@ body {
 }
 
 .animais h2 {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     margin-bottom: 1rem;
-    color: #E54;
+    color: #e54;
 }
 
 .animais h2::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 40px;
     height: 10px;
@@ -159,15 +158,15 @@ body {
 }
 
 .faq-lista dt {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: bold;
-    margin-top: .2rem;
-    margin-bottom: .5rem;
-    color: #E54;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    color: #e54;
 }
 
 .faq-lista dt::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 20px;
     height: 10px;
@@ -177,7 +176,7 @@ body {
 
 .faq-lista dd {
     font-family: Helvetica, Arial, sans-serif;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     margin-left: 30px;
 }
 
@@ -195,7 +194,7 @@ body {
 }
 
 .dados li::before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 20px;
     height: 10px;
@@ -211,14 +210,13 @@ body {
 
 .copy p {
     padding: 20px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: bold;
 }
 
-
 /* Responsividade */
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
     body {
         grid-template-columns: 1fr;
     }
