@@ -261,3 +261,7 @@ body {
 .vermelho {
     color: tomato;
 }
+
+html.textBigger {
+    font-size: 150%;
+}
