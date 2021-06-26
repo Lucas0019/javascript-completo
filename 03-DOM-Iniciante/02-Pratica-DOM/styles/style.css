@@ -265,3 +265,10 @@ body {
 html.textBigger {
     font-size: 150%;
 }
+
+/* Aula - Trasversing e Manipulação */
+.fox__fire {
+    color: tomato;
+    font-size: 2rem;
+    font-family: 'Fira Code';
+}
