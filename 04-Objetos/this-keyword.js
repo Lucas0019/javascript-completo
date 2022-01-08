@@ -9,7 +9,7 @@ function Carro(marca, precoInicial) {
 }
 
 const honda = new Carro('Honda', 2000);
-const fiat = new Carro('Fiat', 3000);
+const fiat = new Carro('Fiat', 3000); 
 const fusca = new Carro('Fusca', 4000);
 
 // Variáveis dentro da Constructor estão "protegidas".
